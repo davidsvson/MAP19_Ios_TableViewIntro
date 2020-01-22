@@ -15,6 +15,8 @@
 		633BEBA723D83B49005673C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 633BEBA523D83B49005673C1 /* LaunchScreen.storyboard */; };
 		633BEBB223D83B4A005673C1 /* TableViewIntroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633BEBB123D83B4A005673C1 /* TableViewIntroTests.swift */; };
 		633BEBBD23D83B4A005673C1 /* TableViewIntroUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633BEBBC23D83B4A005673C1 /* TableViewIntroUITests.swift */; };
+		633BEBCC23D84D8E005673C1 /* PersonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633BEBCA23D84D8E005673C1 /* PersonTableViewCell.swift */; };
+		633BEBCD23D84D8E005673C1 /* PersonTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 633BEBCB23D84D8E005673C1 /* PersonTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		633BEBB823D83B4A005673C1 /* TableViewIntroUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewIntroUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		633BEBBC23D83B4A005673C1 /* TableViewIntroUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewIntroUITests.swift; sourceTree = "<group>"; };
 		633BEBBE23D83B4A005673C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		633BEBCA23D84D8E005673C1 /* PersonTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonTableViewCell.swift; sourceTree = "<group>"; };
+		633BEBCB23D84D8E005673C1 /* PersonTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PersonTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				633BEBA323D83B49005673C1 /* Assets.xcassets */,
 				633BEBA523D83B49005673C1 /* LaunchScreen.storyboard */,
 				633BEBA823D83B49005673C1 /* Info.plist */,
+				633BEBCA23D84D8E005673C1 /* PersonTableViewCell.swift */,
+				633BEBCB23D84D8E005673C1 /* PersonTableViewCell.xib */,
 			);
 			path = TableViewIntro;
 			sourceTree = "<group>";
@@ -234,6 +240,7 @@
 			files = (
 				633BEBA723D83B49005673C1 /* LaunchScreen.storyboard in Resources */,
 				633BEBA423D83B49005673C1 /* Assets.xcassets in Resources */,
+				633BEBCD23D84D8E005673C1 /* PersonTableViewCell.xib in Resources */,
 				633BEBA223D83B47005673C1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,6 +268,7 @@
 			files = (
 				633BEB9F23D83B47005673C1 /* ViewController.swift in Sources */,
 				633BEB9B23D83B47005673C1 /* AppDelegate.swift in Sources */,
+				633BEBCC23D84D8E005673C1 /* PersonTableViewCell.swift in Sources */,
 				633BEB9D23D83B47005673C1 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
