@@ -14,13 +14,18 @@ class ViewController: UIViewController, UITableViewDataSource {
     
     let personCellId =  "PersonCellId"
     
-    var persons = ["David", "Susan", "Lois", "Laura"]
+    var persons = [Person]()  // = ["David", "Susan", "Lois", "Laura"]
     
   //  let cellIdentity = "IdCell"
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        persons.append(Person(firstName: "David", secondName: "Svensson"))
+        persons.append(Person(firstName: "Susan", secondName: "Svensson"))
+        persons.append(Person(firstName: "Per", secondName: "Persson"))
+        persons.append(Person(firstName: "Lois", secondName: "Persson"))
+
         let nib = UINib(nibName: "PersonTableViewCell", bundle: nil)
         
         tableView.register(nib, forCellReuseIdentifier: personCellId)
@@ -38,8 +43,8 @@ class ViewController: UIViewController, UITableViewDataSource {
 
         let cell = tableView.dequeueReusableCell(withIdentifier: personCellId, for: indexPath) as! PersonTableViewCell
         
-        cell.firstNameLabel.text = persons[indexPath.row]
-        cell.secondNameLabel.text = "Svensson"
+        cell.firstNameLabel.text = persons[indexPath.row].firstName
+        cell.secondNameLabel.text = persons[indexPath.row].secondName
         
    //     cell.textLabel?.text = String(persons[indexPath.row])
         

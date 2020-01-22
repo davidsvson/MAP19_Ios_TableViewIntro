@@ -17,6 +17,7 @@
 		633BEBBD23D83B4A005673C1 /* TableViewIntroUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633BEBBC23D83B4A005673C1 /* TableViewIntroUITests.swift */; };
 		633BEBCC23D84D8E005673C1 /* PersonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633BEBCA23D84D8E005673C1 /* PersonTableViewCell.swift */; };
 		633BEBCD23D84D8E005673C1 /* PersonTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 633BEBCB23D84D8E005673C1 /* PersonTableViewCell.xib */; };
+		633BEBD123D858CD005673C1 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633BEBD023D858CD005673C1 /* Person.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		633BEBBE23D83B4A005673C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		633BEBCA23D84D8E005673C1 /* PersonTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonTableViewCell.swift; sourceTree = "<group>"; };
 		633BEBCB23D84D8E005673C1 /* PersonTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PersonTableViewCell.xib; sourceTree = "<group>"; };
+		633BEBD023D858CD005673C1 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				633BEB9A23D83B47005673C1 /* AppDelegate.swift */,
+				633BEBD023D858CD005673C1 /* Person.swift */,
 				633BEB9C23D83B47005673C1 /* SceneDelegate.swift */,
 				633BEB9E23D83B47005673C1 /* ViewController.swift */,
 				633BEBA023D83B47005673C1 /* Main.storyboard */,
@@ -266,6 +269,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				633BEBD123D858CD005673C1 /* Person.swift in Sources */,
 				633BEB9F23D83B47005673C1 /* ViewController.swift in Sources */,
 				633BEB9B23D83B47005673C1 /* AppDelegate.swift in Sources */,
 				633BEBCC23D84D8E005673C1 /* PersonTableViewCell.swift in Sources */,
